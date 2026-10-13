@@ -1,0 +1,32 @@
+SALES & BUSINESS ANALYTICS DASHBOARD - POWER BI GUIDE
+
+
+
+1. Open Power BI Desktop.
+
+2. Get Data -> Excel -> select data/sales_data.xlsx -> Sales Data -> Load.
+
+3. Create these measures:
+Total Sales = SUM('Sales Data'[Sales])
+                         
+Total Profit = SUM('Sales Data'[Profit])
+                         
+Total Orders = COUNTROWS('Sales Data')
+                         
+Total Quantity = SUM('Sales Data'[Quantity])
+
+4. Add KPI cards for the four measures.
+
+5. Add a line chart: Date on X-axis and Total Sales as Values.
+
+6. Add a column chart: Category and Total Sales.
+
+7. Add a bar chart: Region and Total Sales.
+
+8. Add a Top 10 Products chart using Product and Total Sales.
+
+9. Add slicers for Date, Category and Region.
+
+10. Save as powerbi/Sales_Dashboard.pbix.
+
+Recommended title: Sales & Business Analytics Dashboard
